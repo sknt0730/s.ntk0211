@@ -12,10 +12,7 @@ a {
     text-decoration: none;
     position: absolute;
   display: block ;
-   left: 350px;
-   bottom: 2px;
-   height: 37px;
-  width: 200px;
+   bottom: 5px;
   background-color: #7189ff;
   color: #fff;
   border-radius: 15px;
@@ -23,6 +20,7 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .bgm {
     position: absolute;
     margin: 0;
