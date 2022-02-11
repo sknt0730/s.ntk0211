@@ -16,18 +16,7 @@ img {
     height: 87%;
   
 }
-.title {
-    z-index: 2;
-    width: 750px;
-    height: 150px;
-    position: absolute;
-padding: -50px 0;
-border-radius: 10px;
-border: 2px solid #333;
-background-color: #fff;
-font-size: 5.6rem;
-text-align: center;
-}
+
 .start_btn{
     text-decoration: none;
     width: 20%;
