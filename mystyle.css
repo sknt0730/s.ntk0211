@@ -21,7 +21,7 @@ img {
     width: 750px;
     height: 150px;
     position: absolute;
-padding: -40px 0;
+padding: -50px 0;
 border-radius: 10px;
 border: 2px solid #333;
 background-color: #fff;
@@ -54,7 +54,8 @@ text-align: center;
 }
 .st_p{
     text-align: center;
-    width:40% ;
+    width:65% ;
+    font-size: 1.4rem;
     color: #333;
     padding: 5px;
     margin: 5px auto;
@@ -68,15 +69,19 @@ text-align: center;
     height: 25px;
    
 }
-
+.text {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+}
 .dicision {
     text-decoration: none;
    
     font-size: 1.5rem;
     width: 20%;
-    position: absolute;
-    margin-left: 50vh;
-  display: block ;
+    padding: 5px;
+    margin: 10px auto;
+  display:block;
   background-color: #7189ff;
   color: #fff;
   border-radius: 15px;
@@ -91,8 +96,10 @@ text-align: center;
    
     font-size: 1.5rem;
     width: 20%;
-    position: absolute;
-  margin: 2% auto;
+    
+    padding: 5px;
+  display:block;
+  margin: 10px auto;
   background-color: #bb2d23;
   color: #fff;
   border-radius: 15px;
@@ -112,7 +119,7 @@ width: 750px;
     margin: 30% auto 2%;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
 text-align: center;
 }
 .badp2 {
@@ -126,12 +133,17 @@ width: 750px;
     font-size: 2.0rem;
 text-align: center;
 }
+.bad25 {
+    opacity: .5;
+    color: #333;
+}
 .true {
     text-decoration: none;
    
     font-size: 1.5rem;
     width: 20%;
-    position: absolute;
+    padding: 5px;
+    margin: 10px auto;
   display: block ;
   background-color: #ffe660;
   color: #fff;
