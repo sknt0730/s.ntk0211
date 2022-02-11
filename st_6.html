@@ -10,12 +10,29 @@
 <a id="6"></a>
 <img src="" alt="">
 <div class="text">
-    <form name="quiz" onsubmit="return false">
-<input type="text"="text" data-answer="おすしがたべたい" data-jump="incorrect" name="answer" placeholder="答えを入力してね">
+    <script>
+        $(document).ready(function(){
+            $('.confirm_buttton').click(function(){
+                if(!confirm('入力内容に間違いないですか？')){
+                    return false;
+                }else{
+                    location.href = 'complete.html';
+                }
+            });
+        });
+        </script>
+    <form name="quiz">
+<input type="text"　placeholder="答えを入力してね">
 <input type="button" value="決定"  class="dicision">
 <a href="st_7.html#7" class="btn">次へ</a>
 
 
+<script src="./jquery.min.js"></script>
 </form>
 </div>
 </body>
+
+
+
+…
+<button type="submit" id="confirm">入力内容を確認する</button>
