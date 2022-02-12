@@ -1,5 +1,5 @@
 function quiz2() {
-    if(document.getElementById('answer2').value == 'aa') {
+    if(document.getElementById('answer2').value == 'ねむたい') {
         alert();
         location.href = 'st_14.html#14'　;
         
